@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>css | 一只小猪猪</title>
+    <meta name="description" content="学不尽的知识，走不完的路">
+    <meta name="generator" content="VuePress 1.3.0">
+    <link rel="icon" href="/logo.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.46bdbf49.css" as="style"><link rel="preload" href="/assets/js/app.586bd1ab.js" as="script"><link rel="preload" href="/assets/js/2.cce4ef71.js" as="script"><link rel="preload" href="/assets/js/10.41d5fe78.js" as="script"><link rel="prefetch" href="/assets/js/11.9f16a4a7.js"><link rel="prefetch" href="/assets/js/12.26ff0f2d.js"><link rel="prefetch" href="/assets/js/13.4b701966.js"><link rel="prefetch" href="/assets/js/14.948f9699.js"><link rel="prefetch" href="/assets/js/15.9be668c1.js"><link rel="prefetch" href="/assets/js/16.c9a0bd65.js"><link rel="prefetch" href="/assets/js/17.a9f6e873.js"><link rel="prefetch" href="/assets/js/18.718f9d0a.js"><link rel="prefetch" href="/assets/js/3.4a37fa73.js"><link rel="prefetch" href="/assets/js/4.e43a75b1.js"><link rel="prefetch" href="/assets/js/5.7fed2f13.js"><link rel="prefetch" href="/assets/js/6.9b6b000f.js"><link rel="prefetch" href="/assets/js/7.983f761c.js"><link rel="prefetch" href="/assets/js/8.a5cd26cf.js"><link rel="prefetch" href="/assets/js/9.c671c43d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.46bdbf49.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">一只小猪猪</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/student/" class="nav-link router-link-active">
+  学习路线
+</a></div><div class="nav-item"><a href="/poetry/pearls/" class="nav-link">
+  诗和远方
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="在线文档" class="dropdown-title"><span class="title">在线文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://cn.vuejs.org/v2/api/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://vuex.vuejs.org/zh/api/#vuex-store" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  vuex
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.kancloud.cn/yunye/axios/234845" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Axios
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.jquery123.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  JQuery
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.runoob.com/bootstrap/bootstrap-tutorial.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Bootstrap
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="在线工具" class="dropdown-title"><span class="title">在线工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          在线编辑
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://smallpdf.com/cn/pdf-to-word" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  PDF转换器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.bejson.com/jsoneditoronline" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  JSON编辑器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tableconvert.com/?output=text" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  MD表格生成
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://cron.qqe2.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  CRON表达式
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tool.oschina.net/codeformat/html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  代码格式化
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://zh.numberempire.com/latexequationeditor.php" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  公式编辑器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://cli.im/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  二维码生成器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://tool.chinaz.com/tools/native_ascii.aspx" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线编码转换
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.toyaml.com/index.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  YAML&lt;-&gt;Properites
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线Web练习
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          在线服务
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.bootcdn.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Boot CDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://cdn.code.baidu.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度 CDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://qydev.weixin.qq.com/cdn/cdnjs.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微信 CDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://servers.ustclug.org/2014/06/blog-googlefonts-speedup/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  科大谷歌字体加速
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tldr.ostera.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  tlddr 命令手册
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          开源镜像
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://developer.aliyun.com/mirror/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OPSX
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://mirror.azure.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  AZURE
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Docker HUB
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          趋势分析
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://trends.google.com/trends/?geo=US" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  谷歌趋势
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://index.baidu.com/v2/index.html#/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度指数
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tongji.baidu.com/research/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度流量研究院
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          在线服务
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.aliyun.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  阿里云
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://cloud.tencent.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  腾讯云
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/log/" class="nav-link">
+  周记
+</a></div><div class="nav-item"><a href="https://growliao.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  一只小猪猪的爱情故事
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/student/" class="nav-link router-link-active">
+  学习路线
+</a></div><div class="nav-item"><a href="/poetry/pearls/" class="nav-link">
+  诗和远方
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="在线文档" class="dropdown-title"><span class="title">在线文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://cn.vuejs.org/v2/api/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://vuex.vuejs.org/zh/api/#vuex-store" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  vuex
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.kancloud.cn/yunye/axios/234845" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Axios
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.jquery123.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  JQuery
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.runoob.com/bootstrap/bootstrap-tutorial.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Bootstrap
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="在线工具" class="dropdown-title"><span class="title">在线工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          在线编辑
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://smallpdf.com/cn/pdf-to-word" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  PDF转换器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.bejson.com/jsoneditoronline" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  JSON编辑器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tableconvert.com/?output=text" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  MD表格生成
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://cron.qqe2.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  CRON表达式
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tool.oschina.net/codeformat/html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  代码格式化
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://zh.numberempire.com/latexequationeditor.php" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  公式编辑器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://cli.im/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  二维码生成器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://tool.chinaz.com/tools/native_ascii.aspx" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线编码转换
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.toyaml.com/index.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  YAML&lt;-&gt;Properites
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线Web练习
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          在线服务
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.bootcdn.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Boot CDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://cdn.code.baidu.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度 CDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://qydev.weixin.qq.com/cdn/cdnjs.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微信 CDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://servers.ustclug.org/2014/06/blog-googlefonts-speedup/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  科大谷歌字体加速
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tldr.ostera.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  tlddr 命令手册
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          开源镜像
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://developer.aliyun.com/mirror/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OPSX
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://mirror.azure.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  AZURE
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Docker HUB
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          趋势分析
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://trends.google.com/trends/?geo=US" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  谷歌趋势
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://index.baidu.com/v2/index.html#/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度指数
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://tongji.baidu.com/research/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度流量研究院
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          在线服务
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.aliyun.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  阿里云
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://cloud.tencent.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  腾讯云
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/log/" class="nav-link">
+  周记
+</a></div><div class="nav-item"><a href="https://growliao.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  一只小猪猪的爱情故事
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>css</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/student/css/css.html#_1、字体的属性" class="sidebar-link">1、字体的属性</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/student/css/css.html#_1-1-color-字段颜色" class="sidebar-link">1.1 color:字段颜色</a></li><li class="sidebar-sub-header"><a href="/student/css/css.html#_1-2-font-family-字体" class="sidebar-link">1.2 font-family:字体</a></li><li class="sidebar-sub-header"><a href="/student/css/css.html#_1-3-font-size-字号" class="sidebar-link">1.3 font-size:字号</a></li><li class="sidebar-sub-header"><a href="/student/css/css.html#_1-4-line-height-行高" class="sidebar-link">1.4 line-height:行高</a></li></ul></li><li><a href="/student/css/css.html#font-14px-27px-宋体" class="sidebar-link">font: 14px/27px &quot;宋体&quot;;</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/student/css/css.html#_1-5-font-weight-字体的加粗" class="sidebar-link">1.5 font-weight: 字体的加粗</a></li><li class="sidebar-sub-header"><a href="/student/css/css.html#_1-6-font-style-字段的样式" class="sidebar-link">1.6 font-style:字段的样式</a></li><li class="sidebar-sub-header"><a href="/student/css/css.html#font-italic-boid-14px-22px-宋体-复合属性书写" class="sidebar-link">font: italic boid 14px/22px &quot;宋体&quot;;  复合属性书写</a></li></ul></li><li><a href="/student/css/css.html#_2、文本" class="sidebar-link">2、文本</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/student/css/css.html#_3、浮动-float" class="sidebar-link">3、浮动 float</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/student/css/css.html#_4-margin-塌陷" class="sidebar-link">4:margin 塌陷</a></li><li class="sidebar-sub-header"><a href="/student/css/css.html#_5-position-定位" class="sidebar-link">5: Position 定位</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css"><a href="#css" class="header-anchor">#</a> css</h1> <h2 id="_1、字体的属性"><a href="#_1、字体的属性" class="header-anchor">#</a> 1、字体的属性</h2> <h3 id="_1-1-color-字段颜色"><a href="#_1-1-color-字段颜色" class="header-anchor">#</a> 1.1 color:字段颜色</h3> <p>###色值：十六进制、RGB、rgba、颜色名。</p> <h4 id="color-ff0000-红色"><a href="#color-ff0000-红色" class="header-anchor">#</a> color: #ff0000; 红色</h4> <h4 id="颜色使用：背景色、边框色等。"><a href="#颜色使用：背景色、边框色等。" class="header-anchor">#</a> 颜色使用：背景色、边框色等。</h4> <h3 id="_1-2-font-family-字体"><a href="#_1-2-font-family-字体" class="header-anchor">#</a> 1.2 font-family:字体</h3> <h4 id="中文：微软雅黑、宋体"><a href="#中文：微软雅黑、宋体" class="header-anchor">#</a> 中文：微软雅黑、宋体</h4> <h4 id="英文：arial、consola"><a href="#英文：arial、consola" class="header-anchor">#</a> 英文：Arial、Consola</h4> <h4 id="font-family-arial-consola"><a href="#font-family-arial-consola" class="header-anchor">#</a> font-family:&quot;Arial&quot;,&quot;Consola&quot;</h4> <h3 id="_1-3-font-size-字号"><a href="#_1-3-font-size-字号" class="header-anchor">#</a> 1.3 font-size:字号</h3> <h4 id="文字大小-。自己设置一个通用字体大小，如果不设置，页面会有一个默认的字段大小。"><a href="#文字大小-。自己设置一个通用字体大小，如果不设置，页面会有一个默认的字段大小。" class="header-anchor">#</a> 文字大小 。自己设置一个通用字体大小，如果不设置，页面会有一个默认的字段大小。</h4> <p>####谷歌浏览器：最小是显示12Px。如果文字设置小于12像素，会自动显示成12Px.</p> <h4 id="ie浏览器：可以随意设置，甚至是1px"><a href="#ie浏览器：可以随意设置，甚至是1px" class="header-anchor">#</a> IE浏览器：可以随意设置，甚至是1px</h4> <h4 id="常用字号像素值：12-14-16-18-22"><a href="#常用字号像素值：12-14-16-18-22" class="header-anchor">#</a> 常用字号像素值：12/14/16/18/22</h4> <h3 id="_1-4-line-height-行高"><a href="#_1-4-line-height-行高" class="header-anchor">#</a> 1.4 line-height:行高</h3> <h4 id="一行文字实际占有的高度。文字在自己的行高内，垂直居中。"><a href="#一行文字实际占有的高度。文字在自己的行高内，垂直居中。" class="header-anchor">#</a> 一行文字实际占有的高度。文字在自己的行高内，垂直居中。</h4> <p>####单 位：像素px或百分比</p> <h4 id="注意：行高属性在书写，必须写在字号的后面。"><a href="#注意：行高属性在书写，必须写在字号的后面。" class="header-anchor">#</a> 注意：行高属性在书写，必须写在字号的后面。</h4> <h4 id="行高、字号、字体都是font字段的单独属性"><a href="#行高、字号、字体都是font字段的单独属性" class="header-anchor">#</a> 行高、字号、字体都是font字段的单独属性</h4> <h4 id="特殊用途：要让一行文字在盒子里垂直居中，让行高等于盒子高。只能单行文字的垂直居中"><a href="#特殊用途：要让一行文字在盒子里垂直居中，让行高等于盒子高。只能单行文字的垂直居中" class="header-anchor">#</a> 特殊用途：要让一行文字在盒子里垂直居中，让行高等于盒子高。只能单行文字的垂直居中</h4> <div class="language- extra-class"><pre><code>&lt;style type=&quot;text/css&quot;&gt;		
+	p{
+		height: 100px;
+		width: 300px;
+		border: 1px solid red;
+		color: #252525;
+		font: 14px/100px &quot;微软雅黑&quot;;
+		
+	}
+&lt;/style&gt;
+
+&lt;body&gt;
+	&lt;div class=&quot;box1&quot; id=&quot;box1&quot;&gt;
+		&lt;p&gt;看看我的颜色听谁的&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+</code></pre></div><h2 id="font-14px-27px-宋体"><a href="#font-14px-27px-宋体" class="header-anchor">#</a> font: 14px/27px &quot;宋体&quot;;</h2> <h3 id="_1-5-font-weight-字体的加粗"><a href="#_1-5-font-weight-字体的加粗" class="header-anchor">#</a> 1.5 font-weight: 字体的加粗</h3> <p>####属性值：数字、单词</p> <h4 id="数字：100，200-700"><a href="#数字：100，200-700" class="header-anchor">#</a> 数字：100，200......700</h4> <h4 id="两个单词：-bold-700加粗，normal-400-正常。"><a href="#两个单词：-bold-700加粗，normal-400-正常。" class="header-anchor">#</a> 两个单词： bold =700加粗，normal =400 正常。</h4> <h4 id="font-bold-14px-40px-宋体-复合属性写法"><a href="#font-bold-14px-40px-宋体-复合属性写法" class="header-anchor">#</a> font: bold 14px/40px &quot;宋体&quot;   复合属性写法</h4> <h3 id="_1-6-font-style-字段的样式"><a href="#_1-6-font-style-字段的样式" class="header-anchor">#</a> 1.6 font-style:字段的样式</h3> <h4 id="normal-正常-italic-斜体-会找一个有斜体的字体进行替换-oblique-斜体-正常的展示斜体"><a href="#normal-正常-italic-斜体-会找一个有斜体的字体进行替换-oblique-斜体-正常的展示斜体" class="header-anchor">#</a> normal:正常  italic:斜体-会找一个有斜体的字体进行替换   oblique:斜体--正常的展示斜体</h4> <h3 id="font-italic-boid-14px-22px-宋体-复合属性书写"><a href="#font-italic-boid-14px-22px-宋体-复合属性书写" class="header-anchor">#</a> font: italic boid 14px/22px &quot;宋体&quot;;  复合属性书写</h3> <h2 id="_2、文本"><a href="#_2、文本" class="header-anchor">#</a> 2、文本</h2> <p>###2.1 text-align:对齐</p> <h4 id="对齐方式：水平左对齐、水平右对齐、水平居中。-默认文本left左对齐"><a href="#对齐方式：水平左对齐、水平右对齐、水平居中。-默认文本left左对齐" class="header-anchor">#</a> 对齐方式：水平左对齐、水平右对齐、水平居中。 默认文本left左对齐</h4> <h4 id="对应的属性值：left、right、center"><a href="#对应的属性值：left、right、center" class="header-anchor">#</a> 对应的属性值：left、right、center</h4> <p>###2.2 text-indent: 文本缩进</p> <h4 id="em-或者px像素或者百度比为单位"><a href="#em-或者px像素或者百度比为单位" class="header-anchor">#</a> em 或者px像素或者百度比为单位</h4> <h4 id="如果是百分比，参考的不是本身的宽度，而是父盒子宽度的百分之多少。"><a href="#如果是百分比，参考的不是本身的宽度，而是父盒子宽度的百分之多少。" class="header-anchor">#</a> 如果是百分比，参考的不是本身的宽度，而是父盒子宽度的百分之多少。</h4> <p>###2.3 text-decoration：文本修饰</p> <h4 id="对于文本整体样式的一个修饰效果。"><a href="#对于文本整体样式的一个修饰效果。" class="header-anchor">#</a> 对于文本整体样式的一个修饰效果。</h4> <h4 id="有四种常见样式："><a href="#有四种常见样式：" class="header-anchor">#</a> 有四种常见样式：</h4> <h4 id="正常，没有修饰：none"><a href="#正常，没有修饰：none" class="header-anchor">#</a> 正常，没有修饰：none;</h4> <h4 id="下划线：underline"><a href="#下划线：underline" class="header-anchor">#</a> 下划线：underline;</h4> <h4 id="中划线，删除线：line-through"><a href="#中划线，删除线：line-through" class="header-anchor">#</a> 中划线，删除线：line-through</h4> <p>####上划线：overline</p> <p>####所有的文本除了（a）标签，其他都默认为none;</p> <h2 id="_3、浮动-float"><a href="#_3、浮动-float" class="header-anchor">#</a> 3、浮动 float</h2> <h4 id="对应属性值-：-left、right、center"><a href="#对应属性值-：-left、right、center" class="header-anchor">#</a> 对应属性值 ： left、right、center</h4> <h4 id="因为浮动会脱离文档流，导致底部内容顶上，所以需要清除浮动"><a href="#因为浮动会脱离文档流，导致底部内容顶上，所以需要清除浮动" class="header-anchor">#</a> 因为浮动会脱离文档流，导致底部内容顶上，所以需要清除浮动</h4> <h4 id="消除浮动的方法"><a href="#消除浮动的方法" class="header-anchor">#</a> 消除浮动的方法</h4> <div class="language- extra-class"><pre><code>##### 3.1  额外标签法（在最后一个浮动标签后，新加一个标签，给其设置clear：both；）（不推荐） 会增加一个DOM元素 
+
+	div {
+		width: 100px;
+		height: 200px;
+		border: 1px solid red;
+	}
+	
+	.box1 {
+		float: left;
+	}
+	
+	.box2 {
+		width: 50px;
+		height: 50px;
+		background: pink;
+	}
+	.clear{
+		clear: both;
+	}
+&lt;/style&gt;
+
+&lt;body&gt;
+	&lt;div class=&quot;box1&quot;&gt;
+	&lt;/div&gt;
+	&lt;p class=&quot;clear&quot;&gt;&lt;/p&gt;
+	&lt;div class=&quot;box2&quot;&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+</code></pre></div><h5 id="_3-2-父级添加overflow属性（父元素添加overflow-hidden）（不推荐）如果我们清除了浮动，父元素自动检测子盒子最高的高度，然后与其同高。"><a href="#_3-2-父级添加overflow属性（父元素添加overflow-hidden）（不推荐）如果我们清除了浮动，父元素自动检测子盒子最高的高度，然后与其同高。" class="header-anchor">#</a> 3.2 父级添加overflow属性（父元素添加overflow:hidden）（不推荐）如果我们清除了浮动，父元素自动检测子盒子最高的高度，然后与其同高。</h5> <div class="language- extra-class"><pre><code>&lt;style type=&quot;text/css&quot;&gt;
+	div {
+		width: 100px;
+		height: 200px;
+		border: 1px solid red;
+	}
+	
+	.box1 {
+		float: left;
+	}
+	
+	.box2 {
+		width: 50px;
+		height: 50px;
+		background: pink;
+	}
+	.box {
+		overflow: hidden;
+	}
+&lt;/style&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+    &lt;div class=&quot;box&quot;&gt;
+        &lt;div class=&quot;box1&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;box2&quot;&gt;
+	&lt;/div&gt;
+
+&lt;/body&gt;
+</code></pre></div><h5 id="_3-3-使用after伪元素清除浮动（推荐使用）-（注意：给父元素设置）"><a href="#_3-3-使用after伪元素清除浮动（推荐使用）-（注意：给父元素设置）" class="header-anchor">#</a> 3.3 使用after伪元素清除浮动（推荐使用） （注意：给父元素设置）</h5> <div class="language- extra-class"><pre><code>&lt;style type=&quot;text/css&quot;&gt;
+div {
+
+		border: 1px solid red;
+
+}
+.box1 {
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+
+.box2 {
+	width: 50px;
+	height: 50px;
+	background: pink;
+}
+
+.clearfix:after {
+	content: &quot;&quot;;
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	/*IE兼容设置*/
+	*zoom: 1;
+}
+&lt;/style&gt;
+
+&lt;body&gt;
+
+	&lt;div class=&quot;clearfix&quot;&gt;
+
+		&lt;div class=&quot;box1 &quot;&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;box2 &quot;&gt;
+
+	&lt;/div&gt;
+&lt;/body&gt;
+</code></pre></div><h4 id="_3-4使用before和after双伪元素清除浮动"><a href="#_3-4使用before和after双伪元素清除浮动" class="header-anchor">#</a> 3.4	使用before和after双伪元素清除浮动</h4> <div class="language- extra-class"><pre><code>&lt;style type=&quot;text/css&quot;&gt;
+
+div {
+
+		border: 1px solid red;
+
+}
+.box1 {
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+
+.box2 {
+	width: 50px;
+	height: 50px;
+	background: pink;
+}
+
+.clearfix:after,.clearfix:before{
+	content: &quot;&quot;;
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix {
+	/*IE兼容设置*/
+	*zoom: 1;
+}
+&lt;/style&gt;
+
+&lt;body&gt;
+
+	&lt;div class=&quot;clearfix&quot;&gt;
+
+		&lt;div class=&quot;box1 &quot;&gt;
+
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;div class=&quot;box2 &quot;&gt;
+
+&lt;/div&gt;
+&lt;/body&gt;
+</code></pre></div><h3 id="_4-margin-塌陷"><a href="#_4-margin-塌陷" class="header-anchor">#</a> 4:margin 塌陷</h3> <h4 id="_4-1-垂直之间塌陷的原则是以两盒子最大的外边距为准。-我们肯定会很理所当然的认定这两个盒子之间的距离为90px，事实上并非如此"><a href="#_4-1-垂直之间塌陷的原则是以两盒子最大的外边距为准。-我们肯定会很理所当然的认定这两个盒子之间的距离为90px，事实上并非如此" class="header-anchor">#</a> 4.1 😗*垂直之间塌陷的原则是以两盒子最大的外边距为准。 **  我们肯定会很理所当然的认定这两个盒子之间的距离为90px，事实上并非如此.</h4> <div class="language- extra-class"><pre><code>&lt;style type=&quot;text/css&quot;&gt;
+
+.box1,.box2{
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+
+.box1{
+	height: 130px;
+	margin-bottom: 50px;  (以当前为准)
+}
+.box2{
+	margin-top: 40px;
+}
+&lt;/style&gt;
+
+	&lt;body&gt;
+		&lt;div class=&quot;box&quot;&gt;
+		&lt;div class=&quot;box1&quot;&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box2 &quot;&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/body&gt;
+</code></pre></div><h4 id="_4-2-嵌套关系-父级元素塌陷-子盒子和父盒子之间并没出现期望的120px间隙而是父盒子与子盒子一起与页面顶端产生了120px间隙（即父级盒子往下塌陷了120px）。"><a href="#_4-2-嵌套关系-父级元素塌陷-子盒子和父盒子之间并没出现期望的120px间隙而是父盒子与子盒子一起与页面顶端产生了120px间隙（即父级盒子往下塌陷了120px）。" class="header-anchor">#</a> 4.2: 嵌套关系(父级元素塌陷) 　　　 子盒子和父盒子之间并没出现期望的120px间隙而是父盒子与子盒子一起与页面顶端产生了120px间隙（即父级盒子往下塌陷了120px）。</h4> <div class="language- extra-class"><pre><code>&lt;style type=&quot;text/css&quot;&gt;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1,.box{
+	width: 300px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	background: blue;
+}
+.box1{
+	width: 100px;
+	height: 130px;
+	background: pink;
+	margin-top: 120px;
+}
+&lt;/style&gt;
+
+	&lt;body&gt;
+	&lt;div class=&quot;box&quot;&gt;
+		&lt;div class=&quot;box1&quot;&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/body&gt;
+</code></pre></div><h4 id="解决margin-塌陷的方法"><a href="#解决margin-塌陷的方法" class="header-anchor">#</a> 解决margin 塌陷的方法</h4> <h5 id="_4-1-1-为父盒子设置border，为外层添加border"><a href="#_4-1-1-为父盒子设置border，为外层添加border" class="header-anchor">#</a> 4.1.1 为父盒子设置border，为外层添加border</h5> <h5 id="_4-1-2-为父盒子添加overflow：hidden；"><a href="#_4-1-2-为父盒子添加overflow：hidden；" class="header-anchor">#</a> 4.1.2 为父盒子添加overflow：hidden；</h5> <h5 id="_4-1-3-为父盒子设定padding值；"><a href="#_4-1-3-为父盒子设定padding值；" class="header-anchor">#</a> 4.1.3 为父盒子设定padding值；</h5> <h5 id="_4-1-4为父盒子添加position：fixed；"><a href="#_4-1-4为父盒子添加position：fixed；" class="header-anchor">#</a> 4.1.4为父盒子添加position：fixed；</h5> <h5 id="_4-1-5-为父盒子添加-display：table；（会改变盒子的大小，table属性会列表化）"><a href="#_4-1-5-为父盒子添加-display：table；（会改变盒子的大小，table属性会列表化）" class="header-anchor">#</a> 4.1.5 为父盒子添加 display：table；（会改变盒子的大小，table属性会列表化）</h5> <h5 id="_4-1-6-利用伪元素给子元素的前面添加一个空元素-；"><a href="#_4-1-6-利用伪元素给子元素的前面添加一个空元素-；" class="header-anchor">#</a> 4.1.6 利用伪元素给子元素的前面添加一个空元素 ；</h5> <div class="language- line-numbers-mode"><pre class="language-text"><code>类名:before{ content:&quot;&quot;;
+             overflow:hidden; }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>#####4.1.7 尽量避免塌陷</p> <h3 id="_5-position-定位"><a href="#_5-position-定位" class="header-anchor">#</a> 5: Position 定位</h3> <h5 id="有左就以左为原点，有右就以右为原点"><a href="#有左就以左为原点，有右就以右为原点" class="header-anchor">#</a> 有左就以左为原点，有右就以右为原点</h5> <ul><li><p>#####static - 布局正常。 这是默认值。</p></li> <li><p>#####relative - 相对于其正常位置定位。 (以自身为原点) 相对定位  （原来的位置会保存着）</p></li> <li><p>#####absolute - 相对于其具有非静态位置值的其第一祖先定位。 一层一层住外找，如果没有就以它为基准 （绝对定位 ）（脱离文档流了）</p></li> <li><p>#####fixed - 相对于浏览器窗口定位。（固定定位）</p></li></ul> <h4 id="border-radius-圆角属性"><a href="#border-radius-圆角属性" class="header-anchor">#</a> border-radius  圆角属性</h4> <h4 id="cursor-pointer-小手属性"><a href="#cursor-pointer-小手属性" class="header-anchor">#</a> cursor: pointer      小手属性</h4></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.586bd1ab.js" defer></script><script src="/assets/js/2.cce4ef71.js" defer></script><script src="/assets/js/10.41d5fe78.js" defer></script>
+  </body>
+</html>
